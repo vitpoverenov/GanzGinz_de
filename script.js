@@ -1,7 +1,7 @@
-let menu = document.querySelector('#menu-icon');
+let menuIcon = document.querySelector('#burger-menu');
 let navlist = document.querySelector('.navlist');
 
-menu.onclick = () => {
+menuIcon.onclick = () => {
     navlist.classList.toggle('active'); // Toggle 'active' class
 }
 

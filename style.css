@@ -287,3 +287,30 @@ section {
     font-size: 50px;
   }
  }
+
+
+/* Стили для бургер-меню */
+.burger-menu {
+    display: none; /* Изначально скрыто */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 0;
+}
+
+/* ... (ваш предыдущий CSS код) ... */
+
+/* Медиа-запрос для бургер-меню на маленьких экранах */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block; /* Показать на маленьких экранах */
+    }
+
+    .navlist.active {
+        display: block; /* Показать меню при наличии класса 'active' */
+    } 
+}
